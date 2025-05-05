@@ -4,11 +4,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://Adithi367.github.io/food_delivery_app",
   "dependencies": {
     "expres": "^0.0.5",
     "express": "^5.1.0",
