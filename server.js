@@ -12,5 +12,5 @@ app.post('/order', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🍔 FastBite running at http://localhost:${PORT}`);
+  console.log(` FastBite running at http://localhost:${PORT}`);
 });
