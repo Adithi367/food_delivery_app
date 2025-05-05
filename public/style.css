@@ -1,0 +1,84 @@
+body {
+    background: #fff7e6;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff6347;
+  }
+  
+  .item {
+    background: #ffe5b4;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item button {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .item button:hover {
+    background: #e6533f;
+  }
+  
+  .summary {
+    margin-top: 20px;
+  }
+  
+  #placeOrderBtn {
+    margin-top: 10px;
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .address-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: none;
+    margin-top: 8px;
+  }
+  
+  .receipt {
+    background: #f5fffa;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px dashed #008000;
+    border-radius: 10px;
+    text-align: left;
+  }
+  .receipt ul {
+    padding-left: 20px;
+  }
+    

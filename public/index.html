@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FastBite - Order Food Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FastBite </h1>
+    <p>Select your food below:</p>
+
+    <div class="menu">
+      <div class="item">
+         Pizza - ₹150 
+        <button onclick="addToCart('Pizza', 150)">Add to Cart</button>
+      </div>
+      <div class="item">
+        Burger - ₹120 
+        <button onclick="addToCart('Burger', 120)">Add to Cart</button>
+      </div>
+      <div class="item">
+         Pasta - ₹180 
+        <button onclick="addToCart('Pasta', 180)">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="address-section">
+      <h3>Delivery Address:</h3>
+      <textarea id="address" rows="3" placeholder="Enter your address here..."></textarea>
+    </div>
+
+    <div class="summary">
+      <h3>Total: ₹<span id="totalAmount">0</span></h3>
+      <button id="placeOrderBtn" onclick="placeOrder()">Place Order</button>
+      <div id="message"></div>
+    </div>
+
+    <div class="receipt" id="receipt" style="display: none;">
+      <h3> Order Summary</h3>
+      <ul id="receiptList"></ul>
+      <p><strong>Delivery Address:</strong> <span id="finalAddress"></span></p>
+      <p><strong>Total Paid:</strong> ₹<span id="finalTotal"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
